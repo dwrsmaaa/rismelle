@@ -21,7 +21,7 @@ function Hero() {
               color="blue-gray"
               className="lg:text-5xl !leading-snug text-3xl lg:max-w-3xl"
             >
-              Unlock the Power of the Web with Our Expert Courses
+              Dewi Rismawati
             </Typography>
             <Typography variant="lead" className="mb-10 mt-6 !text-gray-900">
               Are you ready to embark on an exciting journey into the world of
@@ -29,40 +29,20 @@ function Hero() {
               mastering the art of web development.
             </Typography>
             <div className="mb-8 flex justify-center gap-4 lg:justify-start">
-              <Button color="gray">view all courses</Button>
+              <Button color="gray">
+                resume
+              </Button>
               <Button color="gray" variant="outlined">
-                see pricing
+                github
+              </Button>
+              <Button color="gray" variant="outlined">
+                linkedin
               </Button>
             </div>
-            <div className="grid grid-cols-2 lg:grid-cols-4 items-center justify-between gap-4 lg:justify-start">
-              <Image
-                width={144}
-                height={144}
-                className="w-36 grayscale opacity-60"
-                src="/logos/logo-pinterest.svg"
-                alt="pinterest"
-              />
-              <Image
-                width={144}
-                height={144}
-                className="w-36 grayscale opacity-60"
-                src="/logos/logo-netflix.svg"
-                alt="netflix"
-              />
-              <Image
-                width={144}
-                height={144}
-                className="w-36 grayscale opacity-60"
-                src="/logos/logo-coinbase.svg"
-                alt="coinbase"
-              />
-              <Image
-                width={144}
-                height={144}
-                className="w-36 grayscale opacity-60"
-                src="/logos/logo-google.svg"
-                alt="google"
-              />
+            <div className="grid grid-cols-2 lg:grid-cols-8 items-center justify-between gap-4 lg:justify-start">
+              <a class="flex justify-center items-center" href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
+              <a class="flex justify-center items-center" href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a>  
+              <a class="flex justify-center items-center" href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a>
             </div>
           </Card>
         </div>

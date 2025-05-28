@@ -16,8 +16,8 @@ export default function Campaign() {
     <>
       <Navbar />
       <Hero />
-      <OutImpressiveStats />
-      <CoursesCategories />
+      {/* <OutImpressiveStats /> */}
+      {/* <CoursesCategories /> */}
       <ExploreCourses />
       <Testimonial />
       <Events />
